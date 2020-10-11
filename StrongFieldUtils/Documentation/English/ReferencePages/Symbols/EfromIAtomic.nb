@@ -1,0 +1,291 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11733,        281]
+NotebookOptionsPosition[      2414,         72]
+NotebookOutlinePosition[     11253,        272]
+CellTagsIndexPosition[     11210,        269]
+WindowTitle->EfromIAtomic
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {
+    TemplateBox[{"StrongFieldUtils", 
+      RGBColor[1, 0, 0]},
+     "PacletName"], Cell[
+    "", "AnchorBar",ExpressionUUID->"fe46c826-04c2-4ff1-960e-076372222a03"]}
+  }]], "AnchorBarGrid",
+ CellID->1813623245,ExpressionUUID->"7a8a95ce-3867-46bd-8002-352680829857"],
+
+Cell["StrongFieldUtils`", "ContextNameCell",
+ CellID->182993197,ExpressionUUID->"246c6cf6-34d2-48bb-87bd-9f5823b79e45"],
+
+Cell[CellGroupData[{
+
+Cell["EfromIAtomic", "ObjectName",
+ CellID->370079475,ExpressionUUID->"09a9fa01-c30c-4a4e-a1a9-250bef4bb946"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+        "EfromIAtomic", 
+         "paclet:StrongFieldUtils/ReferencePages/Symbols/EfromIAtomic"},
+        "RefLink",
+        BaseStyle->{}], "[", 
+       StyleBox["I", "TI"], "]"}]], "InlineFormula", "InlineFormula",
+      ExpressionUUID->"dbd50faf-b24d-4774-81fd-83bd79782e8b"],
+     "\[LineSeparator]",
+     " returns the value of electric field magnitude in atomic units from \
+intensity ",
+     Cell[BoxData[
+      StyleBox["I", "TI"]], "InlineFormula", "InlineFormula",ExpressionUUID->
+      "74687e19-e358-43bc-acd1-bbb2f8a228d2"],
+     " given in W/",
+     Cell[BoxData[
+      SuperscriptBox["cm", "2"]], "InlineFormula", "InlineFormula",
+      ExpressionUUID->"03c2c0dc-1e23-49c7-aa45-526355b7704b"],
+     " unit."
+    }],ExpressionUUID->"694139bd-59ba-4f98-95c0-0b59d6d6346f"]}
+  }]], "Usage",
+ GridBoxOptions->{
+ GridBoxBackground->{
+  "Columns" -> {{None}}, "ColumnsIndexed" -> {}, 
+   "Rows" -> {None, None, {None}}, "RowsIndexed" -> {}}},
+ CellID->813094613,ExpressionUUID->"6f3ad4a7-ec7d-46eb-a613-96dcf8d270f8"]
+}, Open  ]],
+
+Cell["StrongFieldUtils documentation page", "History",
+ CellID->1242714830,ExpressionUUID->"2a19d5ee-2bf3-43f4-bafc-ecf89ef89bac"]
+},
+Saveable->False,
+WindowSize->{808, 755},
+WindowMargins->{{316, Automatic}, {Automatic, 50}},
+WindowTitle->"EfromIAtomic",
+Visible->True,
+TaggingRules->{
+ "NewStyles" -> True, "Openers" -> {}, 
+  "Metadata" -> {
+   "title" -> "EfromIAtomic", "description" -> "", "label" -> " Symbol", 
+    "context" -> "StrongFieldUtils`", "index" -> True, "language" -> "en", 
+    "paclet" -> "", "type" -> "Symbol", "windowtitle" -> "EfromIAtomic", 
+    "uri" -> "StrongFieldUtils/ReferencePages/Symbols/EfromIAtomic", 
+    "summary" -> 
+    "EfromIAtomic[I] returns the value of electric field magnitude in atomic \
+units from intensity I given in W/ cm^2  unit.", "keywords" -> {}, 
+    "WorkflowDockedCell" -> ""}, "LinkTrails" -> "", "SearchTextTranslated" -> 
+  ""},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"Wolfram"}, "Reference.nb", CharacterEncoding -> 
+       "UTF-8"]], CellID -> 54906877], 
+   Cell[
+    StyleData["Spacer1"], 
+    TemplateBoxOptions -> {DisplayFunction -> (StyleBox[
+        GraphicsBox[{}, ImageSize -> {#, 0}, 
+         BaselinePosition -> (Scaled[0] -> Baseline)], CacheGraphics -> 
+        False]& ), InterpretationFunction -> (InterpretationBox["", 
+        Spacer[#]]& ), Tooltip -> None}, CellID -> 1549397176], 
+   Cell[
+    StyleData["Spacer2"], 
+    TemplateBoxOptions -> {DisplayFunction -> (StyleBox[
+        GraphicsBox[{}, ImageSize -> {#, #2}, 
+         BaselinePosition -> (Scaled[0] -> Baseline)], CacheGraphics -> 
+        False]& ), InterpretationFunction -> (InterpretationBox["", 
+        Spacer[{#, #2}]]& ), Tooltip -> None}, CellID -> 331633510], 
+   Cell[
+    StyleData["RefLinkPlain", StyleDefinitions -> StyleData["RefLink"]], 
+    CellID -> 1044338605], 
+   Cell[
+    StyleData["OrangeLink"], TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+        ButtonBox[
+         StyleBox[#, FontColor -> Dynamic[
+            If[
+             CurrentValue["MouseOver"], 
+             RGBColor[0.854902, 0.396078, 0.145098], Inherited]]], 
+         ButtonData -> #2], 
+        MouseAppearanceTag["LinkHand"]]& )}, 
+    ButtonBoxOptions -> {BaseStyle -> {"Link", "GuideFunctionsSubsection"}}, 
+    CellID -> 815087304], 
+   Cell[
+    StyleData["WebLink"], AutoSpacing -> False, CellID -> 374134115], 
+   Cell[
+    StyleData["SectionOpener"], ShowGroupOpener -> False, 
+    TemplateBoxOptions -> {DisplayFunction -> (Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            RotationBox[
+             StyleBox[
+              GraphicsBox[{
+                Thickness[0.18], #4, 
+                LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1,
+                PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], 
+              Magnification -> Dynamic[0.68 CurrentValue[Magnification]], 
+              StripOnInput -> False], BoxRotation -> FEPrivate`Switch[
+               FrontEnd`CurrentValue[
+                FrontEnd`EvaluationNotebook[], #3], True, 0, Open, 0, 
+               Blank[], Rational[1, 2] Pi], 
+             BoxRotationPoint -> {-1.65, -1}]]], 
+          Cell[
+           BoxData[
+            TemplateBox[{1}, "Spacer1"]]], #}]]& )}, CellID -> 239952389], 
+   Cell[
+    StyleData["LinkSectionHeader"], CellFrame -> {{False, False}, {False, 
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.]}}, WholeCellGroupOpener -> 
+    False, CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], 0, 
+      FEPrivate`If[
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.], {{24, 22}, {8, 
+       28}}, -2]], CellElementSpacings -> {"CellMinHeight" -> FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], Inherited, 0], 
+      "ClosedCellHeight" -> FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], Inherited, 0]}, 
+    CellOpen -> FEPrivate`Less[FEPrivate`$VersionNumber, 12.], 
+    TemplateBoxOptions -> {DisplayFunction -> (#& )}, CellID -> 2052996504], 
+   Cell[
+    StyleData["SpacerMargins"], CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], {{29, 24}, {1, 1}}, 
+      FEPrivate`If[
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.], {{36, 24}, {0, 2}}, {{
+       24, 22}, {7, 28}}]], CellID -> 1092486379], 
+   Cell[
+    StyleData["LinkSectionContent"], CellFrame -> {{False, False}, {False, 
+       FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], False, True]}}, 
+    CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], {{28, 24}, {25, 14}}, 
+      FEPrivate`If[
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.], {{37, 24}, {0, 2}}, {{
+       24, 22}, {7, 28}}]], CellGroupingRules -> "NormalGrouping", FontSize -> 
+    16, FontWeight -> "Normal", FontColor -> GrayLevel[0.545098], Background -> 
+    None, TemplateBoxOptions -> {DisplayFunction -> FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], #3& , GridBox[{{
+           DynamicBox[
+            FEPrivate`ImportImage[
+             FrontEnd`FileName[{"Documentation", "FooterIcons"}, #]]], 
+           
+           GridBox[{{#2}, {#3}}, BaseStyle -> {CellFrame -> 0}, 
+            GridBoxSpacings -> {"Rows" -> {0, 0.7}}]}}, 
+         GridBoxSpacings -> {"Columns" -> {{0.9}}}]& ]}, 
+    GridBoxOptions -> {
+     GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+      GridBoxSpacings -> {"Rows" -> {0, {
+           FEPrivate`If[
+            FEPrivate`Less[FEPrivate`$VersionNumber, 12.], 0.3, 0.2]}}}}, 
+    CellID -> 433390003], 
+   Cell[
+    StyleData["SectionHeaderSpacer"], CellMargins -> -2, 
+    CellElementSpacings -> {"CellMinHeight" -> 0, "ClosedCellHeight" -> 0}, 
+    CellOpen -> False, CellID -> 1868733444], 
+   Cell[
+    StyleData["SectionFooterSpacer"], CellMargins -> -2, 
+    CellElementSpacings -> {"CellMinHeight" -> 0, "ClosedCellHeight" -> 0}, 
+    CellOpen -> False, CellID -> 854655933], 
+   Cell[
+    StyleData["PacletName"], 
+    TemplateBoxOptions -> {DisplayFunction -> (GridBox[{{
+          ItemBox[
+           Cell[
+            BoxData[
+             RowBox[{
+               TemplateBox[{8}, "Spacer1"], 
+               Cell[#, "PacletNameCell", TextAlignment -> Center], 
+               TemplateBox[{8}, "Spacer1"]}]], TextAlignment -> Center], 
+           Background -> #2, ItemSize -> Full], ""}}, 
+        GridBoxAlignment -> {"Rows" -> {{Center}}}, 
+        GridBoxItemSize -> {"Columns" -> {Full, 
+            Scaled[0.02]}, "Rows" -> {{2.5}}}]& )}, CellID -> 1831634795], 
+   Cell[
+    StyleData["HeaderMenuArrow"], 
+    TemplateBoxOptions -> {DisplayFunction -> (GraphicsBox[{
+         GrayLevel[2/3], 
+         Thickness[0.13], 
+         LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        ImageSize -> 20, PlotRange -> {{-3, 4}, {-1, 1}}]& )}, CellID -> 
+    107919820], 
+   Cell[
+    StyleData["ContextNameCell"], Editable -> False, ShowCellBracket -> False,
+     CellMargins -> {{24, 22}, {0, 0}}, FontFamily -> "Source Sans Pro", 
+    FontSize -> 18, FontWeight -> "Bold", FontColor -> GrayLevel[
+      Rational[44, 85]], CellID -> 1332216672], 
+   Cell[
+    StyleData["Input"], CellContext -> Notebook, CellID -> 901102682], 
+   Cell[
+    StyleData["UnevaluatedInput", StyleDefinitions -> StyleData["Input"]], 
+    CellID -> 778097730], 
+   Cell[
+    StyleData["Output"], CellContext -> Notebook, CellID -> 1460621527], 
+   Cell[
+    StyleData["NotesThumbnails"], ShowCellBracket -> False, 
+    CellMargins -> {{32, Inherited}, {0, 0}}, 
+    CellElementSpacings -> {"CellMinHeight" -> 0, "ClosedCellHeight" -> 0}, 
+    CellOpen -> FEPrivate`Switch[
+      FrontEnd`CurrentValue[
+       FrontEnd`EvaluationNotebook[], {
+       TaggingRules, "Openers", "NotesSection", "0"}], True, False, Open, 
+      False, 
+      Blank[], True], CellID -> 780435432], 
+   Cell[
+    StyleData["DetailsHeader"], 
+    TemplateBoxOptions -> {DisplayFunction -> ("Details and Options"& )}, 
+    CellID -> 2095673395], 
+   Cell[
+    StyleData[
+    "ExampleSectionDelimiter", StyleDefinitions -> 
+     StyleData["PageDelimiter"]], CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 12.], -2, {{24, 14}, {12, 
+      12}}], CellOpen -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 12.], False, True], CellID -> 
+    1103455318], 
+   Cell[
+    StyleData["SeeAlsoItem", StyleDefinitions -> "InlineFormula"], FontFamily -> 
+    "Source Sans Pro", CellID -> 104754134]}, Visible -> False, 
+  FrontEndVersion -> "12.1 for Mac OS X x86 (64-bit) (June 19, 2020)", 
+  StyleDefinitions -> "Science.nb"],
+ExpressionUUID->"4cb746f6-a7fb-48bd-9f30-a287fa1e4a04"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[584, 21, 294, 7, 53, "AnchorBarGrid",ExpressionUUID->"7a8a95ce-3867-46bd-8002-352680829857",
+ CellID->1813623245],
+Cell[881, 30, 119, 1, 23, "ContextNameCell",ExpressionUUID->"246c6cf6-34d2-48bb-87bd-9f5823b79e45",
+ CellID->182993197],
+Cell[CellGroupData[{
+Cell[1025, 35, 109, 1, 54, "ObjectName",ExpressionUUID->"09a9fa01-c30c-4a4e-a1a9-250bef4bb946",
+ CellID->370079475],
+Cell[1137, 38, 1128, 28, 114, "Usage",ExpressionUUID->"6f3ad4a7-ec7d-46eb-a613-96dcf8d270f8",
+ CellID->813094613]
+}, Open  ]],
+Cell[2280, 69, 130, 1, 49, "History",ExpressionUUID->"2a19d5ee-2bf3-43f4-bafc-ecf89ef89bac",
+ CellID->1242714830]
+}
+]
+*)
+
+(* End of internal cache information *)
+

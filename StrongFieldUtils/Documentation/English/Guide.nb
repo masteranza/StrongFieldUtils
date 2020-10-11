@@ -1,0 +1,404 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     15630,        394]
+NotebookOptionsPosition[      5854,        177]
+NotebookOutlinePosition[     13988,        363]
+CellTagsIndexPosition[     13945,        360]
+WindowTitle->StrongFieldUtils guide
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {
+    TemplateBox[{"GUIDE", 
+      RGBColor[1, 0.5, 0]},
+     "PacletName"], Cell[
+    "", "AnchorBar",ExpressionUUID->"e1e07b52-764c-496d-a7a5-ea1b27f3b9a1"]}
+  }]], "AnchorBarGrid",
+ CellID->211299433,ExpressionUUID->"9570dce0-3499-437f-80c3-f9e9e17778e7"],
+
+Cell[CellGroupData[{
+
+Cell["StrongFieldUtils guide", "GuideTitle",
+ CellID->1519101940,ExpressionUUID->"20fa53da-581f-4fe4-bf04-6be81887916e"],
+
+Cell["\t", "GuideMainDelimiter",
+ CellID->113226397,ExpressionUUID->"10b66cd5-5514-405e-9a5d-e27b7cc3d7c3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TemplateBox[{
+  "Unit conversion functions \[RightGuillemet]", 
+   "paclet:guide/SelectingAndTypingInNotebooks"},
+  "OrangeLink",
+  BaseStyle->"GuideFunctionsSubsection"]], "GuideFunctionsSubsection",
+ CellID->325543137,ExpressionUUID->"f170f131-7aa1-4114-b5f8-bf148989af16"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "EfromIAtomic", 
+    "paclet:StrongFieldUtils/ReferencePages/Symbols/EfromIAtomic"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "bbce64d0-7f86-4ab3-9e22-fa4e9e2b79db"],
+ ", ",
+ Cell[BoxData[
+  TemplateBox[{"IfromEAtomic", "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "579d7f60-2b32-4f3b-a374-d1f16a58d2c0"],
+ ", ",
+ Cell[BoxData[
+  TemplateBox[{
+   "\[Omega]from\[Lambda]Atomic", 
+    "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "90e903d8-c186-49df-948e-67f7fa2362ca"],
+ ", ",
+ Cell[BoxData[
+  TemplateBox[{
+   "Tfrom\[Omega]Atomic", "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "bd28d559-92fa-4e06-91ac-ee6abbba06e1"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ "Usually SI\[LeftRightArrow]Atomic"
+}], "GuideText",
+ CellID->1762654650,ExpressionUUID->"9f5e0bfb-9b88-4b31-b599-6e5482d7e7c0"],
+
+Cell["\t", "GuideSectionDelimiter",
+ CellID->399792185,ExpressionUUID->"9ed7f17d-3b8f-4359-aab4-d90f3025ec9b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TemplateBox[{
+  "Calculation of often used quantities \[RightGuillemet]", 
+   "paclet:guide/ProbabilityWithQuantities"},
+  "OrangeLink",
+  BaseStyle->"GuideFunctionsSubsection"]], "GuideFunctionsSubsection",
+ CellID->1978405479,ExpressionUUID->"9bf35c9d-944b-4dbb-a96f-6354bd2615af"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{"QuiverAtomic", "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "5babe117-fd29-497c-bfce-9b60bbd9fbf7"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{"PonderoAtomic", "paclet:guide/SelectingAndTypingInNotebooks"},
+   
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "4a807e0a-49ce-4186-878a-494c071eec36"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{"CorkumCutoff", "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "6f2fb27a-2cd6-445d-a153-af903d6ce581"]
+}], "InlineGuideFunctionListing",
+ CellID->1571579052,ExpressionUUID->"a3a87a3c-b869-4622-8368-07cde551ce36"],
+
+Cell["\t", "GuideSectionDelimiter",
+ CellID->1627752511,ExpressionUUID->"c3cbef6f-ec0c-4ce8-84b6-e400d8025008"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TemplateBox[{
+  "HHG Spectrum \[RightGuillemet]", 
+   "paclet:guide/SelectingAndTypingInNotebooks"},
+  "OrangeLink",
+  BaseStyle->"GuideFunctionsSubsection"]], "GuideFunctionsSubsection",
+ CellID->842273244,ExpressionUUID->"83be4971-b9da-4648-879b-d883e7e35ca7"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{"CalcSpectrum", "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "56d40704-1c18-4f2d-9824-6187b99f9263"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "PresentSpectrum", "paclet:guide/SelectingAndTypingInNotebooks"},
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "d8bd3288-62c4-4fbb-9dfa-9722ed58e008"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{"GaborSpectrum", "paclet:guide/SelectingAndTypingInNotebooks"},
+   
+   "RefLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",ExpressionUUID->
+  "db954fe6-c9d5-4839-9572-35c3efe8bcee"]
+}], "InlineGuideFunctionListing",
+ CellID->2021694531,ExpressionUUID->"7559ac2f-a20f-4474-bcd0-5f7660c5f8cb"]
+}, Open  ]],
+
+Cell["", "SectionFooterSpacer",
+ CellID->1133719683,ExpressionUUID->"91df9e4d-e869-4877-84ae-c8283e651e3b"]
+}, Open  ]],
+
+Cell[" ", "FooterCell",
+ CellID->1951795997,ExpressionUUID->"c053dfdb-ec6b-4c85-b781-5007fad73201"]
+},
+Saveable->False,
+WindowSize->{808, 755},
+WindowMargins->{{316, Automatic}, {Automatic, 50}},
+WindowTitle->"StrongFieldUtils guide",
+Visible->True,
+TaggingRules->{
+ "NewStyles" -> True, "Openers" -> {}, 
+  "Metadata" -> {
+   "title" -> "StrongFieldUtils guide", "description" -> "", "label" -> 
+    " Guide", "context" -> "Global`", "index" -> True, "language" -> "en", 
+    "paclet" -> "", "type" -> "Guide", "windowtitle" -> 
+    "StrongFieldUtils guide", "uri" -> 
+    "Global/ReferencePages/Guides/StrongFieldUtilsguide", "summary" -> "", 
+    "keywords" -> {}, "WorkflowDockedCell" -> ""}, "LinkTrails" -> "", 
+  "SearchTextTranslated" -> ""},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (June 19, 2020)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> 
+     FrontEnd`FileName[{"Wolfram"}, "Reference.nb", CharacterEncoding -> 
+       "UTF-8"]], CellID -> 1633848075], 
+   Cell[
+    StyleData["Spacer1"], 
+    TemplateBoxOptions -> {DisplayFunction -> (StyleBox[
+        GraphicsBox[{}, ImageSize -> {#, 0}, 
+         BaselinePosition -> (Scaled[0] -> Baseline)], CacheGraphics -> 
+        False]& ), InterpretationFunction -> (InterpretationBox["", 
+        Spacer[#]]& ), Tooltip -> None}, CellID -> 211202336], 
+   Cell[
+    StyleData["Spacer2"], 
+    TemplateBoxOptions -> {DisplayFunction -> (StyleBox[
+        GraphicsBox[{}, ImageSize -> {#, #2}, 
+         BaselinePosition -> (Scaled[0] -> Baseline)], CacheGraphics -> 
+        False]& ), InterpretationFunction -> (InterpretationBox["", 
+        Spacer[{#, #2}]]& ), Tooltip -> None}, CellID -> 2034676308], 
+   Cell[
+    StyleData["RefLinkPlain", StyleDefinitions -> StyleData["RefLink"]], 
+    CellID -> 275113728], 
+   Cell[
+    StyleData["OrangeLink"], TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+        ButtonBox[
+         StyleBox[#, FontColor -> Dynamic[
+            If[
+             CurrentValue["MouseOver"], 
+             RGBColor[0.854902, 0.396078, 0.145098], Inherited]]], 
+         ButtonData -> #2], 
+        MouseAppearanceTag["LinkHand"]]& )}, 
+    ButtonBoxOptions -> {BaseStyle -> {"Link", "GuideFunctionsSubsection"}}, 
+    CellID -> 304134505], 
+   Cell[
+    StyleData["WebLink"], AutoSpacing -> False, CellID -> 577545675], 
+   Cell[
+    StyleData["SectionOpener"], ShowGroupOpener -> False, 
+    TemplateBoxOptions -> {DisplayFunction -> (Cell[
+        TextData[{
+          Cell[
+           BoxData[
+            RotationBox[
+             StyleBox[
+              GraphicsBox[{
+                Thickness[0.18], #4, 
+                LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1,
+                PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], 
+              Magnification -> Dynamic[0.68 CurrentValue[Magnification]], 
+              StripOnInput -> False], BoxRotation -> FEPrivate`Switch[
+               FrontEnd`CurrentValue[
+                FrontEnd`EvaluationNotebook[], #3], True, 0, Open, 0, 
+               Blank[], Rational[1, 2] Pi], 
+             BoxRotationPoint -> {-1.65, -1}]]], 
+          Cell[
+           BoxData[
+            TemplateBox[{1}, "Spacer1"]]], #}]]& )}, CellID -> 184075285], 
+   Cell[
+    StyleData["LinkSectionHeader"], CellFrame -> {{False, False}, {False, 
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.]}}, WholeCellGroupOpener -> 
+    False, CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], 0, 
+      FEPrivate`If[
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.], {{24, 22}, {8, 
+       28}}, -2]], CellElementSpacings -> {"CellMinHeight" -> FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], Inherited, 0], 
+      "ClosedCellHeight" -> FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], Inherited, 0]}, 
+    CellOpen -> FEPrivate`Less[FEPrivate`$VersionNumber, 12.], 
+    TemplateBoxOptions -> {DisplayFunction -> (#& )}, CellID -> 1376863315], 
+   Cell[
+    StyleData["SpacerMargins"], CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], {{29, 24}, {1, 1}}, 
+      FEPrivate`If[
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.], {{36, 24}, {0, 2}}, {{
+       24, 22}, {7, 28}}]], CellID -> 1805438780], 
+   Cell[
+    StyleData["LinkSectionContent"], CellFrame -> {{False, False}, {False, 
+       FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], False, True]}}, 
+    CellMargins -> FEPrivate`If[
+      FEPrivate`Less[FEPrivate`$VersionNumber, 11.1], {{28, 24}, {25, 14}}, 
+      FEPrivate`If[
+       FEPrivate`Less[FEPrivate`$VersionNumber, 12.], {{37, 24}, {0, 2}}, {{
+       24, 22}, {7, 28}}]], CellGroupingRules -> "NormalGrouping", FontSize -> 
+    16, FontWeight -> "Normal", FontColor -> GrayLevel[0.545098], Background -> 
+    None, TemplateBoxOptions -> {DisplayFunction -> FEPrivate`If[
+        FEPrivate`Less[FEPrivate`$VersionNumber, 12.], #3& , GridBox[{{
+           DynamicBox[
+            FEPrivate`ImportImage[
+             FrontEnd`FileName[{"Documentation", "FooterIcons"}, #]]], 
+           
+           GridBox[{{#2}, {#3}}, BaseStyle -> {CellFrame -> 0}, 
+            GridBoxSpacings -> {"Rows" -> {0, 0.7}}]}}, 
+         GridBoxSpacings -> {"Columns" -> {{0.9}}}]& ]}, 
+    GridBoxOptions -> {
+     GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+      GridBoxSpacings -> {"Rows" -> {0, {
+           FEPrivate`If[
+            FEPrivate`Less[FEPrivate`$VersionNumber, 12.], 0.3, 0.2]}}}}, 
+    CellID -> 65643350], 
+   Cell[
+    StyleData["SectionHeaderSpacer"], CellMargins -> -2, 
+    CellElementSpacings -> {"CellMinHeight" -> 0, "ClosedCellHeight" -> 0}, 
+    CellOpen -> False, CellID -> 1608672539], 
+   Cell[
+    StyleData["SectionFooterSpacer"], CellMargins -> -2, 
+    CellElementSpacings -> {"CellMinHeight" -> 0, "ClosedCellHeight" -> 0}, 
+    CellOpen -> False, CellID -> 140247243], 
+   Cell[
+    StyleData["PacletName"], 
+    TemplateBoxOptions -> {DisplayFunction -> (GridBox[{{
+          ItemBox[
+           Cell[
+            BoxData[
+             RowBox[{
+               TemplateBox[{8}, "Spacer1"], 
+               Cell[#, "PacletNameCell", TextAlignment -> Center], 
+               TemplateBox[{8}, "Spacer1"]}]], TextAlignment -> Center], 
+           Background -> #2, ItemSize -> Full], ""}}, 
+        GridBoxAlignment -> {"Rows" -> {{Center}}}, 
+        GridBoxItemSize -> {"Columns" -> {Full, 
+            Scaled[0.02]}, "Rows" -> {{2.5}}}]& )}, CellID -> 1345852342], 
+   Cell[
+    StyleData["HeaderMenuArrow"], 
+    TemplateBoxOptions -> {DisplayFunction -> (GraphicsBox[{
+         GrayLevel[2/3], 
+         Thickness[0.13], 
+         LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        ImageSize -> 20, PlotRange -> {{-3, 4}, {-1, 1}}]& )}, CellID -> 
+    295058143], 
+   Cell[
+    StyleData["Input"], CellContext -> Notebook, CellID -> 502468478], 
+   Cell[
+    StyleData["UnevaluatedInput", StyleDefinitions -> StyleData["Input"]], 
+    CellID -> 1082009742], 
+   Cell[
+    StyleData["Output"], CellContext -> Notebook, CellID -> 446210998], 
+   Cell[
+    StyleData[
+    "GuideMainSectionHeader", StyleDefinitions -> 
+     StyleData["SeeAlsoSection"]], CellMargins -> -2, 
+    CellElementSpacings -> {
+     "CellMinHeight" -> 0, "ClosedCellHeight" -> 0, "ClosedGroupTopMargin" -> 
+      4}, CellOpen -> False, CellID -> 455348062], 
+   Cell[
+    StyleData[
+    "GuideSectionDelimiter", StyleDefinitions -> StyleData["GuideDelimiter"]],
+     CellMargins -> {{26, 24}, {4, 10}}, 
+    CellFrameMargins -> {{0, 0}, {2, 10}}, CellID -> 1550643773], 
+   Cell[
+    StyleData[
+    "GuideMainDelimiter", StyleDefinitions -> StyleData["GuideDelimiter"]], 
+    CellMargins -> {{26, 24}, {4, 10}}, 
+    CellElementSpacings -> {"CellMinHeight" -> 1}, CellOpen -> True, CellID -> 
+    1955836466]}, Visible -> False, FrontEndVersion -> 
+  "12.1 for Mac OS X x86 (64-bit) (June 19, 2020)", StyleDefinitions -> 
+  "Science.nb"],
+ExpressionUUID->"07485367-ea87-4898-871f-b5b7da43e1a8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[594, 21, 284, 7, 53, "AnchorBarGrid",ExpressionUUID->"9570dce0-3499-437f-80c3-f9e9e17778e7",
+ CellID->211299433],
+Cell[CellGroupData[{
+Cell[903, 32, 120, 1, 61, "GuideTitle",ExpressionUUID->"20fa53da-581f-4fe4-bf04-6be81887916e",
+ CellID->1519101940],
+Cell[1026, 35, 107, 1, 27, "GuideMainDelimiter",ExpressionUUID->"10b66cd5-5514-405e-9a5d-e27b7cc3d7c3",
+ CellID->113226397],
+Cell[CellGroupData[{
+Cell[1158, 40, 290, 6, 39, "GuideFunctionsSubsection",ExpressionUUID->"f170f131-7aa1-4114-b5f8-bf148989af16",
+ CellID->325543137],
+Cell[1451, 48, 1184, 34, 29, "GuideText",ExpressionUUID->"9f5e0bfb-9b88-4b31-b599-6e5482d7e7c0",
+ CellID->1762654650],
+Cell[2638, 84, 110, 1, 27, "GuideSectionDelimiter",ExpressionUUID->"9ed7f17d-3b8f-4359-aab4-d90f3025ec9b",
+ CellID->399792185]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2785, 90, 298, 6, 39, "GuideFunctionsSubsection",ExpressionUUID->"9bf35c9d-944b-4dbb-a96f-6354bd2615af",
+ CellID->1978405479],
+Cell[3086, 98, 1045, 26, 28, "InlineGuideFunctionListing",ExpressionUUID->"a3a87a3c-b869-4622-8368-07cde551ce36",
+ CellID->1571579052],
+Cell[4134, 126, 111, 1, 27, "GuideSectionDelimiter",ExpressionUUID->"c3cbef6f-ec0c-4ce8-84b6-e400d8025008",
+ CellID->1627752511]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4282, 132, 277, 6, 39, "GuideFunctionsSubsection",ExpressionUUID->"83be4971-b9da-4648-879b-d883e7e35ca7",
+ CellID->842273244],
+Cell[4562, 140, 1052, 27, 28, "InlineGuideFunctionListing",ExpressionUUID->"7559ac2f-a20f-4474-bcd0-5f7660c5f8cb",
+ CellID->2021694531]
+}, Open  ]],
+Cell[5629, 170, 107, 1, 0, "SectionFooterSpacer",ExpressionUUID->"91df9e4d-e869-4877-84ae-c8283e651e3b",
+ CellID->1133719683]
+}, Open  ]],
+Cell[5751, 174, 99, 1, 40, "FooterCell",ExpressionUUID->"c053dfdb-ec6b-4c85-b781-5007fad73201",
+ CellID->1951795997]
+}
+]
+*)
+
+(* End of internal cache information *)
+
